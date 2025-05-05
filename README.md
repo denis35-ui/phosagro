@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +8,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-image: url('https://lectoriy.phosagro.ru/images/background.jpg'); /* Замените на нужный вам URL */
             background-size: cover;
             background-position: center;
         }
@@ -42,7 +42,6 @@
             position: relative;
             bottom: 0;
             width: 100%;
-            
         }
         .login-button {
             padding: 10px 20px;
@@ -109,7 +108,9 @@
 </header>
 
 <nav>
-    
+    <a href="#about">О нас</a>
+    <a href="#services">Услуги</a>
+    <a href="#contact">Контакты</a>
     <button class="login-button" onclick="openLoginModal()">Вход</button>
 </nav>
 
@@ -131,14 +132,21 @@
 </div>
 
 <footer>
-    <p>&copy; 2025 ProАгро 
-     <a href="http://lection.phosagra.ru">Перейти на сайт</a></p>
+    <p>&copy; 2025 ProАгро</p>
 </footer>
+
 
 <div id="loginModal" class="modal">
     <div class="modal-content">
         <span class="close" onclick="closeLoginModal()">&times;</span>
         <h2>Вход</h2>
+        <p>Войдите с помощью:</p>
+        
+         <div style="text-align: center; margin: 20px;">
+             <img src="file:///C:\Users\DEMaksimov\Desktop\qr.png" alt="QR code" style="width:150px; height:150px;">
+             </div>
+    
+        <h3>Или:</h3>
         <label for="email">Электронная почта:</label><br>
         <input type="email" id="email" placeholder="Введите вашу почту"><br>
         <label for="password">Пароль:</label><br>
@@ -147,5 +155,7 @@
     </div>
 </div>
 
+
 </body>
 </html>
+          
