@@ -141,10 +141,11 @@
         <span class="close" onclick="closeLoginModal()">&times;</span>
         <h2>Вход</h2>
         <p>Войдите с помощью:</p>
-        
+        <a>
          <div style="text-align: center; margin: 20px;">
-             <img src="file:///C:\Users\DEMaksimov\Desktop\qr.png" alt="QR code" style="width:150px; height:150px;">
+             <img src="qr.png" alt="QR code" style="width:150px; height:150px;">
              </div>
+        </a>   
     
         <h3>Или:</h3>
         <label for="email">Электронная почта:</label><br>
